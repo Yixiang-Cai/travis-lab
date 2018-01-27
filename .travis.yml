@@ -11,4 +11,5 @@ install:
   -pip install -r requirements.txt
   -pip install pytest
 script:
-  -pytest test.py
+  -cd task2/
+  -py.test test.py
