@@ -80,6 +80,7 @@ ax0.spines['right'].set_visible(False)
 ax1.spines['right'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 
+plt.savefig("task31.png")
 plt.show()
 
 

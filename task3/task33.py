@@ -26,5 +26,7 @@ ax[2,0].set_ylabel('target MEDV')
 
 ax[2,3].set_visible(False)
 ax[2,4].set_visible(False)
+
+plt.savefig("task33.png")
 plt.show()
 

@@ -39,6 +39,6 @@ ax[3,3].tick_params('x',rotation=90.0)
 
 plt.subplots_adjust(wspace=0,hspace=0)
 
-         
+plt.savefig('task32.png')   
 plt.show()
             
