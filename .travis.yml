@@ -1,15 +1,15 @@
 language: python
 python:
-  -"2.7"
-  -"3.4"
-  -"3.5"
-  -"3.6"
-  -"3.7"
-  -"nightly"
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "nightly"
 install:
-  -pip install -U pip
-  -pip install -r requirements.txt
-  -pip install pytest
+  - pip install -U pip
+  - pip install -r requirements.txt
+  - pip install pytest
 script:
-  -cd task2/
-  -py.test test.py
+  - cd task2/
+  - pytest
