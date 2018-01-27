@@ -10,4 +10,9 @@ install:
   - pip install pytest
 script:
   - cd task2/
-  - py.test test.py
+  - python 2to3 -w test_1.py
+  - python 2to3 -w test_2.py
+  - python 2to3 -w test_3.py
+  - py.test test_1.py
+  - py.test test_2.py
+  - py.test test_3.py
