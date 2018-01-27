@@ -10,4 +10,4 @@ install:
   - pip install pytest
 script:
   - cd task2/
-  - pytest
+  - py.test test.py
