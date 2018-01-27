@@ -9,9 +9,7 @@ install:
   - pip install -r requirements.txt
   - pip install pytest
 script:
-  - cd task2/
-  
-  - 2to3 -w test_2.py  
+  - cd task2/  
 
   - py.test test_2.py
   
