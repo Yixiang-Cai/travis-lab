@@ -12,5 +12,5 @@ script:
   - cd task2/
   
   - py.test test_1.py
-  - py.test test_2.py
+  
   - py.test test_3.py
