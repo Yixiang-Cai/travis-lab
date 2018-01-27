@@ -11,6 +11,8 @@ install:
 script:
   - cd task2/
   
-  - py.test test_1.py
+  - 2to3 test_2.py  
+
+  - py.test test_2.py
   
   - py.test test_3.py
